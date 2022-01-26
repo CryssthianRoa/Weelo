@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OKFv/lGEVnmLiB/whOxFLjPQnwe6QhFNsTbyvAvbDoE=",
+  "Hash": "r+37TL1THs21m94ZQfhU4IFkyAtC3gMev13zzOSaL24=",
   "Source": "WeeloApp",
   "BasePath": "_content/WeeloApp",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\5apto.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Desarrollo\\Weelo\\Weelo\\WeeloApp\\wwwroot\\images\\6apto.jpg",
+      "SourceId": "WeeloApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Desarrollo\\Weelo\\Weelo\\WeeloApp\\wwwroot\\",
+      "BasePath": "_content/WeeloApp",
+      "RelativePath": "images/6apto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6apto.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Desarrollo\\Weelo\\Weelo\\WeeloApp\\wwwroot\\js\\Property.js",

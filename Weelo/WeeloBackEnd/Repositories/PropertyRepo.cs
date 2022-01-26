@@ -21,29 +21,37 @@ namespace WeeloBackEnd.Repositories
         public async Task<List<Property>> GetProperties()
         {
             var properties = _db.Properties.ToList();
-            List<PropertyImage> propertyImage = new List<PropertyImage>();
-            Owner owner = new Owner();
-            if (properties != null)
+            try
             {
-                foreach (var prop in properties)
+                List<PropertyImage> propertyImage = new List<PropertyImage>();
+                Owner owner = new Owner();
+                if (properties != null)
                 {
-                    owner = _db.Owners.Where(o => o.IdOwner == prop.IdOwner).Select(o => new Owner {
-                        IdOwner = o.IdOwner,
-                        Name = o.Name,
-                        Address = o.Address,
-                        Photo = o.Photo,
-                        Birthday = o.Birthday
-                    }).FirstOrDefault();
-                    propertyImage = _db.PropertyImages.Where(p => p.IdProperty == prop.IdProperty).Select(p => new PropertyImage
+                    foreach (var prop in properties)
                     {
-                        IdPropertyImage = p.IdPropertyImage,
-                        IdProperty = prop.IdProperty,
-                        File = p.File,
-                        Enabled = p.Enabled
-                    }).ToList();
-                    prop.PropertyImages = propertyImage;
-                    prop.IdOwnerNavigation = owner;
+                        owner = _db.Owners.Where(o => o.IdOwner == prop.IdOwner).Select(o => new Owner
+                        {
+                            IdOwner = o.IdOwner,
+                            Name = o.Name,
+                            Address = o.Address,
+                            Photo = o.Photo,
+                            Birthday = o.Birthday
+                        }).FirstOrDefault();
+                        propertyImage = _db.PropertyImages.Where(p => p.IdProperty == prop.IdProperty).Select(p => new PropertyImage
+                        {
+                            IdPropertyImage = p.IdPropertyImage,
+                            IdProperty = prop.IdProperty,
+                            File = p.File,
+                            Enabled = p.Enabled
+                        }).ToList();
+                        prop.PropertyImages = propertyImage;
+                        prop.IdOwnerNavigation = owner;
+                    }
                 }
+            }
+            catch (Exception)
+            {
+                return null;
             }
             
             return properties;
