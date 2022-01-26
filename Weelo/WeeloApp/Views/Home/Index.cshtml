@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <div class="container-lg">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-8"><h2>Property <b>Details</b></h2></div>
+                </div>
+            </div>
+            <div class="table-filter">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label>Search <span class="filter-icon"><i class="fa fa-filter"></i></span></label>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="inpSearch" type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6" style="text-align:right">
+                        <button type="button" class="btn btn-primary add-new"><i class="fa fa-plus"></i> Add New</button>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <table class="table table-bordered">
+                <thead>
+                    <tr id="tblHeaders"></tr>
+                </thead>
+                <tbody id="tblContent"></tbody>
+            </table>
+        </div>
+    </div>
+</div>     
+
+
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<script src="~/js/Property.js"></script>

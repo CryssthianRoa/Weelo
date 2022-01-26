@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\bin\Debug\net6.0\WeeloBackEnd.deps.json
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\bin\Debug\net6.0\WeeloBackEnd.runtimeconfig.json
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\bin\Debug\net6.0\WeeloBackEnd.dll
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\bin\Debug\net6.0\ref\WeeloBackEnd.dll
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\bin\Debug\net6.0\WeeloBackEnd.pdb
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.AssemblyInfo.cs
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.dll
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\ref\WeeloBackEnd.dll
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.pdb
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.genruntimeconfig.cache
+C:\Users\User\Desktop\Desarrollo\Weelo\Weelo\WeeloBackEnd\obj\Debug\net6.0\WeeloBackEnd.csproj.AssemblyReference.cache
